@@ -1,0 +1,46 @@
+<style>
+  body{
+    background: rgb(226, 128, 0);
+  }
+
+</style>
+<body>
+
+<div class="container mt-5 bg-secondary">
+  <div class="card bg-black bg-light">
+    <div class="head"style="margin: 20px;">
+      <h2>Rate Fundador Products</h2>
+    </div>
+    <div class="row mt-4 bg-black bg-light" style="margin: 20px;">
+      <div class="card">
+        <img style="width: 500px;" src="../assets/fundador.jpg" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Fundador Gold Reserve - 700ml | Spanish Brandy de Jerez</h3>
+        <p>Fundador Gold Reserve is a Reserve Solera Brandy. The result of a long aging in the Solera system,
+           made from the best distillated. Denominations specic Brandy of Jerez, Comprised of 30 different soleras sherries.
+            including Oloroso, Pedro Ximenez, Finos and Amontillados, with a comprised age between 3 and 20 years old.
+
+          <br><br>
+          NOSE:
+          A balance aroma, clean and light, matured by its ageing is Sherry seasoned oak butts.
+
+          <br><br>
+          Business Address	7th Floor, 1880 Eastwood Avenue, Eastwood City CyberPark, 188 E. Rodriguez Jr. Avenue, Bagumbayan, Quezon City
+          Business Address	7th Floor, 1880 Eastwood Avenue, Eastwood City CyberPark, 188 E. Rodriguez Jr. Avenue, Bagumbayan, Quezon City
+
+        <br><br>
+        Cheers!
+        Manila Wine
+        "We deliver your emotions... your bottles alongside.”
+
+      </p>
+        <ngb-rating [max]="5" [(rate)]="starRating" class="rate"></ngb-rating>
+        <hr>
+        <pre>Rate: <b>{{starRating}}</b> ratings</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
